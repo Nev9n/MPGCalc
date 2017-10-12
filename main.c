@@ -5,7 +5,6 @@ int main()
 {
     float milesTraveled, gallonsOfGasUsed, milesPerGallon;
 
-
     printf("Enter miles traveled: ");
     scanf("%f", &milesTraveled);
 
