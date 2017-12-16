@@ -14,5 +14,15 @@ int main()
     milesPerGallon = milesTraveled/gallonsOfGasUsed;
 
     printf("Miles per gallon): %.2f", milesPerGallon);
+    
+    if(milesPerGallon<25)
+    {
+        printf("Could be better.\n");
+    }
+    else
+    {
+        printf("Good, keep improving your vehicle!\n")
+    }
+    
     return 0;
 }
