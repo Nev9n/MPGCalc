@@ -17,11 +17,11 @@ int main()
     
     if(milesPerGallon<25)
     {
-        printf("Could be better.\n");
+        printf("Could be better, look into electric.\n");
     }
     else
     {
-        printf("Good, keep improving your vehicle!\n")
+        printf("Good, keep improving your vehicle!\n");
     }
     
     return 0;
